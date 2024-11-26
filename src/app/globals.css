@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -18,4 +18,71 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+h1 a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #333;
+  padding: 5px 20px;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}
+
+ol li {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+ol li a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol li:hover,
+ol li a:hover {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0 0px 0;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li:hover,
+ul li a:hover {
+  color: green;
+}
+
+ul li input[type="button"] {
+  cursor: pointer;
+}
+
+h2, h3 {
+  margin: 10px 0;
+  padding: 0;
 }
