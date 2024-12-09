@@ -3,6 +3,8 @@
 // 해당 경로에 page.js 파일이 반드시 필요하다.
 
 // 자식 컴포넌트
+import ItemList from './itemList/page'; // 대문자로 시작하는 컴포넌트 이름
+
 export default function Home() {
    return (
       <>
@@ -13,6 +15,8 @@ export default function Home() {
          {/* 너비 높이는 선택 사항 */}
          {/* <p><Image src={Image01} alt="이미지" /></p>
          <p><Image src={Image01} alt="이미지" width={100} height={100} /></p> */}
+
+         <ItemList />
       </>
    );
 }

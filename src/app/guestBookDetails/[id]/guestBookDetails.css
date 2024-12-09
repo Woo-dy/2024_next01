@@ -1,0 +1,22 @@
+.back_btn {
+   margin: 20px auto 100px;
+   border: 1px solid #aaa;
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+.back_btn:hover {
+   border: 1px solid green;
+   transition: all 0.3s;
+}
+
+.back_btn:hover a {
+   color: green;
+   transition: all 0.3s;
+}
+
+.back_btn a {
+   text-decoration: none;
+   color: #333;
+}

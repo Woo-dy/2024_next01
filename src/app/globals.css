@@ -31,7 +31,8 @@ h1 a {
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0 0 15px 0;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   display: flex;
   justify-content: center;
@@ -42,15 +43,29 @@ ol li {
   cursor: pointer;
 }
 
-ol li a {
-  color: #333;
+ol span {
+  display: flex;
+  font-size: 14px;
+  padding: 6px 8px;
+  color: #333 !important;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
+ol a,
+ol button {
+  color: #333 !important;
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+
 ol li:hover,
-ol li a:hover {
-  color: green;
+ol a:hover,
+ol button:hover,
+ol span:hover {
+  color: green !important;
+  background: transparent;
 }
 
 ul {
